@@ -72,7 +72,25 @@ from collections import deque
 # print(d["first"])
 # print(d)
 
-from collections import defaultdict
-d = defaultdict(int)
-d["a"] += 10
-print(d)
+# from collections import defaultdict
+# d = defaultdict(int)
+# d["a"] += 10
+# print(d)
+
+# def countLetters(word):
+#     counter = {}
+#     for letter in word:
+#         if letter not in counter:
+#             counter[letter] = 0
+#         counter[letter] += 1
+#     return counter
+
+# vs. 
+
+# from collections import defaultdict
+# def countLetters(word):
+#     counter = defaultdict(int)
+#     for letter in word:
+#         counter[letter] += 1
+#     return counter
+
