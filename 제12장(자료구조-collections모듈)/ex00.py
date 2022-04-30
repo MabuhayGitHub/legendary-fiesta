@@ -103,15 +103,32 @@
 
 # vs.
 
-import collections
-person = collections.namedtuple("person", "name age gender")
-p1 = person(name="Jhon",  age = 28, gender="남")
-p2 = person(name="Sally", age = 24, gender="여")
-for n in [p1, p2]:
-    print("%s은(는) %d 세의 %s성 입니다." %n)
-print(p1.name, p1.age, p1.gender)
-print(p2.name, p2.age, p2.gender)
-# Jhon은(는) 28 세의 남성 입니다.
-# Sally은(는) 24 세의 여성 입니다.
-# Jhon 28 남
-# Sally 24 여
+# import collections
+# person = collections.namedtuple("person", "name age gender")
+# p1 = person(name="Jhon",  age = 28, gender="남")
+# p2 = person(name="Sally", age = 24, gender="여")
+# for n in [p1, p2]:
+#     print("%s은(는) %d 세의 %s성 입니다." %n)
+# print(p1.name, p1.age, p1.gender)
+# print(p2.name, p2.age, p2.gender)
+# # Jhon은(는) 28 세의 남성 입니다.
+# # Sally은(는) 24 세의 여성 입니다.
+# # Jhon 28 남
+# # Sally 24 여
+
+
+# import collections
+# person = collections.namedtuple("person", "name age gender")
+# p1 = person(name="Jhon",  age = 28, gender="남")
+# p2 = person(name="Sally", age = 24, gender="여")
+# p3 = person._make({"Tom", 24, "남"})
+# for n in [p1, p2]:
+#     print("%s은(는) %d 세의 %s성 입니다." %n)
+# print(p1.name, p1.age, p1.gender)
+# print(p2.name, p2.age, p2.gender)
+# print(p3.name, p3.age, p3.gender)
+# # Jhon은(는) 28 세의 남성 입니다.
+# # Sally은(는) 24 세의 여성 입니다.
+# # Jhon 28 남
+# # Sally 24 여
+# # 24 Tom 남
