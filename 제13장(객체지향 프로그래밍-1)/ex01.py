@@ -39,4 +39,5 @@ if __name__ == "__main__":
     
     myCar3.color = "RED"
     myCar3.upSpeed(-60)
+    myCar3.downSpeed(60)
     myCar3.printFields("myCar3")
