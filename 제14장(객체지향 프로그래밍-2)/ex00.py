@@ -46,3 +46,6 @@ w = Vector2D(1, 1)
 a = u + v
 print(a)
 # (1, 1)
+
+# 오버로딩(new)
+# 오버라이딩(modify)
