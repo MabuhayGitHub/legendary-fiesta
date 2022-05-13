@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "script",
+			"scriptType": "python",
+			"path": "venv/Lib/site-packages/_distutils_hack/",
+			"fileName": "__init__.py",
+			"scriptFile": true,
+			"script": "py",
+			"target": "py",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "c:\\Python\\Inflearn\\python\\venv\\Lib\\site-packages\\_distutils_hack\\__init__.py",
+				"_sep": 1,
+				"external": "file:///c%3A/Python/Inflearn/python/venv/Lib/site-packages/_distutils_hack/__init__.py",
+				"path": "/c:/Python/Inflearn/python/venv/Lib/site-packages/_distutils_hack/__init__.py",
+				"scheme": "file"
+			},
+			"takesArgs": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "python: __init__.py",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
