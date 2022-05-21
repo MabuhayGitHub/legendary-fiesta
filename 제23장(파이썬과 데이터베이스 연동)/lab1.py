@@ -28,9 +28,9 @@ while True:
     row = cur.fetchone()
     if row == None:
         break
-    pCode          = row[0]
+    pCode    = row[0]
     pName    = row[1]
-    price       = row[2]
+    price    = row[2]
     amount   = row[3]
     print("%5s %15s %10d %15d" % (pCode, pName, price, amount))
 print("-----------------------------------------------------")
